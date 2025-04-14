@@ -69,7 +69,7 @@ def get_s3_client():
 # Database Configuration, REPLACE with your RDS credentials
 DB_HOST = "database-1.c9wiiec80xz5.us-east-1.rds.amazonaws.com"
 DB_NAME = "database-1"
-DB_USER = "Rtann"
+DB_USER = "Rimtann"
 DB_PASSWORD = "Reem2003"
 
 def get_db_connection():
