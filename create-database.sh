@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # RDS connection details
-DB_HOST=""           # Replace with your RDS endpoint
-DB_USER=""           # Your RDS admin username
-DB_PASSWORD=""       # Your RDS password
+DB_HOST="database-1.c9wiiec80xz5.us-east-1.rds.amazonaws.com"           # Replace with your RDS endpoint
+DB_USER="Rtann"           # Your RDS admin username
+DB_PASSWORD="Reem2003"       # Your RDS password
 SQL_COMMANDS=$(cat <<EOF
 /*
   Database Creation Script for the Image Captioning App
